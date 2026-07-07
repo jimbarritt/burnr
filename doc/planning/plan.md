@@ -142,16 +142,15 @@ Delta 3 complete — the fire runs end-to-end on real token events, tuned agains
 **What was completed this session:**
 - Watched burnr live against its own session transcript (very meta) — real bursts confirmed, counter raced past 176k within two turns.
 - Task 4.1 done: clap CLI (`--demo`, `--session`, `--project`, `--help`/`--version`) with mutual-exclusion, new pinned `spawn_session_watcher`, `watch_loop` shared between both watcher variants.
-- Task 4.2 done: full crates.io metadata in `Cargo.toml` (name `burnr` confirmed still unclaimed), release README rewritten, MIT LICENSE already in place. GIF placeholder commented out — still to record.
+- Task 4.2 done: full crates.io metadata in `Cargo.toml` (name `burnr` confirmed still unclaimed), release README rewritten, MIT LICENSE already in place. Demo GIF recorded by Jim, cropped/converted with ffmpeg to `doc/burnr-demo.gif`, live in the README and rendering cleanly.
 - Task 4.3 done: GitHub Actions CI (fmt/clippy -D warnings/test on ubuntu+macos, publish dry-run); dead-code warnings cleared so `-D warnings` passes; 39 tests green locally.
 
 **State of the project:**
 Everything for v0.1.0 is code-complete: Deltas 1–3 plus 4.1–4.3. 39 tests passing, clippy clean under `-D warnings`, rustfmt applied, CI workflow in place. Only Task 4.4 remains — the actual publish, which is manual (push to GitHub, `cargo login`, `cargo publish`, verify with `cargo search burnr` / `cargo install burnr`).
 
 **Immediate next priorities:**
-1. Task 4.4 — Jim: push to GitHub (repo must be public), `cargo login`, `cargo publish`, verify install on a clean machine
-2. Record the README GIF (e.g. with vhs) and uncomment the image line
-3. Post-publish future ideas live in Implementation Notes (cost-weighted bursts, replay mode, etc.)
+1. Task 4.4 — Jim: commit everything, push to GitHub (repo must be public), `cargo login`, `cargo publish`, verify install on a clean machine
+2. Post-publish future ideas live in Implementation Notes (cost-weighted bursts, replay mode, etc.)
 
 ## Implementation Notes
 
