@@ -9,6 +9,9 @@ license = "MIT"
 readme = "README.md"
 keywords = ["claude", "tui", "terminal", "tokens", "visualisation"]
 categories = ["command-line-utilities", "development-tools", "visualization"]
+# Keep the package lean: GIFs and planning docs live in the repo, not the
+# crate. crates.io rewrites the README's relative image path to GitHub.
+exclude = ["doc/", ".github/"]
 
 [dependencies]
 clap = { version = "4.6.1", features = ["derive"] }

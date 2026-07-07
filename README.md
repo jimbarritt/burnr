@@ -6,7 +6,7 @@ burnr attaches to your current project's live Claude Code session transcript and
 turn's token usage into a burst of rising, fading Matrix-style embers. Big turns blaze; quiet
 sessions smoulder down to a gentle flicker. A status line keeps count.
 
-![burnr in action](doc/burnr-demo.gif)
+![burnr in action](doc/burnr-readme-small.gif)
 
 ## Install
 
